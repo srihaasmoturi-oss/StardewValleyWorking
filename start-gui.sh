@@ -51,7 +51,7 @@ done
 
 if [ ! -f "$STARDew_INSTALLER" ]; then
 echo "=== Stardew Valley installer not found. Downloading... ==="
-wget -O "$STARDew_INSTALLER" "[https://ia801305.us.archive.org/25/items/stardew-valley-v-1.5.6-fix-3-linux-gog-archive-built-in-libs/stardew_valley_1_6_15_24357_8705766150_78675.sh](https://ia801305.us.archive.org/25/items/stardew-valley-v-1.5.6-fix-3-linux-gog-archive-built-in-libs/stardew_valley_1_6_15_24357_8705766150_78675.sh)"
+wget -O "$STARDew_INSTALLER" "https://ia801305.us.archive.org/25/items/stardew-valley-v-1.5.6-fix-3-linux-gog-archive-built-in-libs/stardew_valley_1_6_15_24357_8705766150_78675.sh"
 chmod +x "$STARDew_INSTALLER"
 fi
 
