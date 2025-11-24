@@ -1,0 +1,14 @@
+# .gitpod.yml
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Start GUI
+    command: |
+      chmod +x main.sh
+      ./main.sh
+
+ports:
+  - port: 6080
+    onOpen: open-browser
+    visibility: public
