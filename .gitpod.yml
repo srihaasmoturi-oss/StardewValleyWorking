@@ -5,8 +5,8 @@ image:
 tasks:
   - name: Start GUI
     command: |
-      chmod +x main.sh
-      ./main.sh
+      chmod +x start-gui.sh
+      ./start-gui.sh
 
 ports:
   - port: 6080
